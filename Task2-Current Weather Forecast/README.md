@@ -1,7 +1,7 @@
 <div align="center">
 
-# Project Setup Creator
-Helps in setting up project enviornment for any project with a single command.
+# Weather Forecast
+Shows current weather forecast for various cities around the world.
 
 ![Prview](./assets/output.png)
 
