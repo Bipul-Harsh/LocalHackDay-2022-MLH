@@ -31,6 +31,6 @@ python3 main.py
 ```
 
 ## Outputs
-[output1](assets/images/img1.png)
-[output2](assets/images/img2.png)
-[output3](assets/images/img3.png)
+![output1](assets/images/img1.png)
+![output2](assets/images/img2.png)
+![output3](assets/images/img3.png)
