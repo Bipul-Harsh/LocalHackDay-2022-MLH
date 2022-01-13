@@ -1,6 +1,8 @@
 <div align="center">
 
-Cipher Generator
+# Cipher Generator
+
+Generates Cipher Text from Plain Text.
 
 </div>
 
