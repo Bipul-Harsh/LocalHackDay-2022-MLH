@@ -57,7 +57,7 @@ if __name__ == '__main__':
                 print('Player Wins')
                 player_score += 1
             print(f'Your Score: {player_score}', f'Bot Score: {bot_score}')
-            time.sleep(1)
+            time.sleep(2)
         elif player_reply == 'e':
             cnt = False
             if player_score > bot_score:
