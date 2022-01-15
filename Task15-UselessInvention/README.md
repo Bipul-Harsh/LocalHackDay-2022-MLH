@@ -1,6 +1,6 @@
 <div align="center">
 
-# Notes
+# Useless Invention
 
 Tic Tac Toe game built with HTML, CSS and JavaScript.
 

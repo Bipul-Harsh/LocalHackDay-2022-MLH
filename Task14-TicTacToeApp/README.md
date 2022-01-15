@@ -1,6 +1,6 @@
 <div align="center">
 
-# Notes
+# Tic Tac Toe game
 
 Tic Tac Toe game built with HTML, CSS and JavaScript.
 
