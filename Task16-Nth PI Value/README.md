@@ -1,8 +1,8 @@
 <div align="center">
 
-# Useless Invention
+# Find Nth PI Value
 
-Tic Tac Toe game built with HTML, CSS and JavaScript.
+This will find the Nth PI value upto a large number of digits.
 
 </div>
 
