@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#button{
+    font-size: 5vw;
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10in;
+    background-color: red;
+}
+#button:hover{
+    background-color: blue;
+}
+#button:active{
+    background-color: yellow;
+}

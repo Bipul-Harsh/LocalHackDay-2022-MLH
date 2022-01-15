@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mochiy+Pop+P+One&family=Rubik+Beastly&display=swap');
+
+:root{
+    --title_font : 'Rubik Beastly', cursive;
+    --normal_font : 'Mochiy Pop P One', sans-serif;
+    --xo_font : 'Indie Flower', cursive;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: var(--normal_font);
+    margin:0;
+    height:100vh;
+}
+*{
+    font-family: var(--normal_font);
+    box-sizing: border-box;
+    margin:0;
+}
+
+header{
+    border:5px solid #6f5ec7;
+    min-height:13vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: #e3a84f;
+}
+.heading{
+    font-family: var(--title_font);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+    color: #781313;
+}
+footer{
+    border: 5px solid #e3a84f;
+    min-height: 8vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: #6f5ec7;
+}
+.footer-content{
+    font-family: var(--normal_font);
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 100;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+}
+.container{
+    min-height: 79vh;
+    background-image: url('./assets/wallpaper.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 79vh;
+    display:flex;
+    align-items:center;;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.board{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:21vw;
+    background-color:#000;
+}
+.board-row{
+    display:flex;
+    background-color:#000;
+    justify-content: space-between;
+    width:21vw;
+}
+.board-button{
+    width:6vw;
+    height:6vw;
+    padding:0;
+    border-radius: 0;
+    border:none;
+}
+.board-cell{
+    padding:0;
+}
+.board-button-text{
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.control-board{
+    background-color:#ddbb42;
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    height: 14vh;
+    margin: 10px 0;
+}
+.control-button{
+    width:20vw;
+    height:5vw;
+    padding:0;
+    border-radius: 0;
+    border:none;
+    border-radius:1in;
+    background-color: #d97b1a;
+}
+.control-button:hover{
+    background-color: #b36212!important;
+}
+.control-button:focus{
+    border: 1px solid black;
+}
+#move-info{
+    font-family: var(--xo_font);
+    font-size: 4rem;
+}
+#declaration-container{
+    display:none;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.699);
+    position:fixed;
+    min-height: 100vh;
+    top:0;
+    width: 100vw;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.declaration-window{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#declaration{
+    color: rgb(218, 218, 218);
+}
